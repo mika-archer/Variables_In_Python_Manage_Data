@@ -22,3 +22,5 @@ TypeError: unsupported operand type(s) for +: 'NoneType' and 'NoneType'
 *Figured out where I went wrong! Turns out I nested wrong! After doing a bit of course correcting with variaable nesting, I was able to get it to deliver the input desired results. Now I need to figure out why the space characters I keep trying to add aren't appearing in the final terminal production.*
 
 *Officially figured out a way around that spacing character issue! Booyah!*
+
+You can name variables whatever you want, including multiple names and with numbers, but they need to be separated by an underscore to avoid a SyntaxError.
