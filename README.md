@@ -24,3 +24,5 @@ TypeError: unsupported operand type(s) for +: 'NoneType' and 'NoneType'
 *Officially figured out a way around that spacing character issue! Booyah!*
 
 You can name variables whatever you want, including multiple names and with numbers, but they need to be separated by an underscore to avoid a SyntaxError.
+
+To avoid a NameError, they need to be called back the EXACT way they were made the first time. (Including uppercase/lowercase differences.)
